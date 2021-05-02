@@ -27,7 +27,7 @@ makepkg -si
 
 ###  Install telegram
 ```
-sudo snap install telegram-desktop
+sudo pacman -S telegram-desktop
 ```
 ### Install nordvpn
 ```
