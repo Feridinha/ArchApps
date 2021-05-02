@@ -13,14 +13,14 @@ sudo ln -s /var/lib/snapd/snap /snap
 
 ###  Install brave
 ```
-git clone https://aur.archlinux.org/brave-bin
-cd brave
-makepkg -si
+yay -S brave-bin
 ```
 
 ###  Install vscode
 ```
-yay -S brave-bin
+git clone https://aur.archlinux.org/visual-studio-code-bin.git
+cd visual-studio-code-bin
+makepkg -si
 ```
 
 ###  Install telegram
