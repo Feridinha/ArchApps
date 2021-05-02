@@ -13,7 +13,9 @@ sudo ln -s /var/lib/snapd/snap /snap
 
 ###  Install brave
 ```
-sudo snap install brave
+git clone https://aur.archlinux.org/brave.git
+cd brave
+makepkg -si
 ```
 
 ###  Install vscode
@@ -26,4 +28,10 @@ makepkg -si
 ###  Install telegram
 ```
 sudo snap install telegram-desktop
+```
+### Install nordvpn
+```
+git clone https://aur.archlinux.org/nordvpn-bin.git
+cd nordvpn-bin.git
+makepkg -si
 ```
