@@ -2,7 +2,7 @@
 Os comandos para instalar todos os meus aplicativos que eu uso no Arch linux.
 
 
-###  Install snap
+### Install snap
 ```
 git clone https://aur.archlinux.org/snapd.git
 cd snapd
@@ -11,19 +11,19 @@ sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
 ```
 
-###  Install brave
+### Install brave
 ```
 yay -S brave-bin
 ```
 
-###  Install vscode
+### Install vscode
 ```
 git clone https://aur.archlinux.org/visual-studio-code-bin.git
 cd visual-studio-code-bin
 makepkg -si
 ```
 
-###  Install telegram
+### Install telegram
 ```
 sudo pacman -S telegram-desktop
 ```
@@ -39,4 +39,9 @@ makepkg -si
 git clone https://aur.archlinux.org/burpsuite.git
 cd burpsuite
 makepkg -si
+```
+### Install zsh + oh-my-zsh
+```
+sudo pacman -S zsh
+curl -L http://install.ohmyz.sh | sh
 ```
