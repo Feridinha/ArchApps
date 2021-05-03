@@ -45,3 +45,13 @@ makepkg -si
 sudo pacman -S zsh
 curl -L http://install.ohmyz.sh | sh
 ```
+
+### Install flatpak
+```
+sudo pacman -S flatpak
+```
+
+### Install spotify
+```
+flatpak install flathub com.spotify.Client
+```
