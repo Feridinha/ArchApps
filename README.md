@@ -33,3 +33,10 @@ git clone https://aur.archlinux.org/nordvpn-bin.git
 cd nordvpn-bin.git
 makepkg -si
 ```
+
+### Install burpsuite
+```
+git clone https://aur.archlinux.org/burpsuite.git
+cd burpsuite
+makepkg -si
+```
