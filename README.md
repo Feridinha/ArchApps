@@ -53,6 +53,6 @@ sudo pacman -S flatpak
 
 ### Install spotify
 ```
-flatpak install flathub com.spotify.Client
+snap install spotify
 ```
 ##### Solução para o crash aleatório: Desativar notificações
