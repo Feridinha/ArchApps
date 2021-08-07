@@ -52,7 +52,7 @@ sudo pacman -S flatpak
 ```
 
 ### Install spotify
-######Desativar notificações depois de instalar.
+###### Desativar notificações depois de instalar.
 ```
 snap install spotify
 ```
