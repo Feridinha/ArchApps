@@ -52,8 +52,10 @@ sudo pacman -S flatpak
 ```
 
 ### Install spotify
+######Desativar notificações depois de instalar.
 ```
 snap install spotify
 ```
-##### Solução para o crash aleatório: Desativar notificações
+
+### Manipular local das novas janelas
 ![Janelas](https://img.vivaolinux.com.br/imagens/dicas/comunidade/Screenshot_20210403_155625.png)
