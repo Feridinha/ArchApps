@@ -22,6 +22,14 @@ git clone https://aur.archlinux.org/visual-studio-code-bin.git
 cd visual-studio-code-bin
 makepkg -si
 ```
+### Install chatterino (7tv)
+```
+git clone --recurse-submodules https://github.com/SevenTV/chatterino7.git
+sudo pacman -S qt5-base qt5-multimedia qt5-svg qt5-tools gst-plugins-ugly gst-plugins-good boost rapidjson pkgconf openssl cmake
+cd chatterino7
+mkdir build && cd build
+cmake .. && make
+```
 
 ### Install telegram
 ```
