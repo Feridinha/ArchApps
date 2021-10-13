@@ -29,6 +29,7 @@ sudo pacman -S qt5-base qt5-multimedia qt5-svg qt5-tools gst-plugins-ugly gst-pl
 cd chatterino7
 mkdir build && cd build
 cmake .. && make
+
 ```
 
 ### Install telegram
@@ -40,6 +41,9 @@ sudo pacman -S telegram-desktop
 git clone https://aur.archlinux.org/nordvpn-bin.git
 cd nordvpn-bin.git
 makepkg -si
+sudo cp ~/chatterino7/build/bin/chatterino /bin
+sudo cp ~/chatterino7/resources/icon.png /usr/share/icons/chatterino.png
+sudo cp ~/chatterino7/resources/com.chatterino.chatterino.desktop /usr/share/applications/chatterino.desktop
 ```
 
 ### Install burpsuite
