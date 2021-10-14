@@ -62,9 +62,13 @@ curl -L http://install.ohmyz.sh | sh
 ```
 sudo pacman -S flatpak
 ```
-
+### Install dunst
+###### Iniciar automaticamente com o sistema 
+```
+sudo pacman -S dunst
+```
 ### Install spotify
-###### Desativar notificações depois de instalar.
+###### Instalar dunst ou desativar as notifcações.
 ```
 snap install spotify
 ```
