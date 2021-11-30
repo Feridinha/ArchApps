@@ -61,10 +61,14 @@ curl -L http://install.ohmyz.sh | sh
 ```
 sudo pacman -S flatpak
 ```
-### Install dunst
+### Install dunst + dracula theme
 ###### Iniciar automaticamente com o sistema 
 ```
 sudo pacman -S dunst
+git clone https://github.com/dracula/dunst.git
+cd dunst
+mkdir ~/.config/dunst
+cp dunstrc ~/.config/dunst/dunstrc
 ```
 ### Install spotify
 ###### Instalar dunst ou desativar as notifcações.
