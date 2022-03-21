@@ -23,6 +23,7 @@ cd visual-studio-code-bin
 makepkg -si
 ```
 ### Install chatterino homies
+#### Isso resolver os problemas de [render](https://github.com/SevenTV/chatterino7/issues/27)
 ```
 git clone --recurse-submodules https://github.com/itzAlex/chatterino7.git
 sudo pacman -S qt5-base qt5-multimedia qt5-svg qt5-tools gst-plugins-ugly gst-plugins-good boost rapidjson pkgconf openssl cmake
