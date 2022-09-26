@@ -77,5 +77,10 @@ cp dunstrc ~/.config/dunst/dunstrc
 snap install spotify
 ```
 
+### Libssl1.1
+```
+https://github.com/MicrosoftDocs/live-share/issues/4646#issuecomment-1134736154
+```
+
 ### Manipular local das novas janelas
 ![Janelas](https://img.vivaolinux.com.br/imagens/dicas/comunidade/Screenshot_20210403_155625.png)
